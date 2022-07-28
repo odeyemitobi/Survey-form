@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey form</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  />
+
+  <!--custom css file link -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="header">
+        <h1>Basic Survey Form</h1>
+    </section>
+
+    <form class="join">
+        <h1>Name</h1>
+        <input
+            autofocus
+            maxlength="30"
+            minlength="6"
+            name="text"
+            type="text"
+            id="user"
+            placeholder="First"
+        >
+        <input
+            autofocus
+            maxlength="30"
+            minlength="6"
+            name="text"
+            type="text"
+            id="user"
+            placeholder="Last"
+        >
+        <h1>Email</h1>
+        <input name="email" type="email">
+
+        <h1>Age</h1>
+        <input name="age" type="age">
+
+        <h1>Gender</h1>
+        <select name="gender" id="gender">
+            <option value="male">MALE</option>
+            <option value="female">FEMALE</option>
+        </select>
+
+        <h1>What is your current career? Does it match your dream career?</h1>
+        <div class="bigger-input">
+            <input name="career" type="career">
+        </div>
+        
+
+        <h1>What are your career goals as of now?</h1>
+        <div class="bigger-input">
+            <input name="career" type="career">
+        </div>
+
+        <h1>If you had the chance to change your current career field, would you do it?</h1>
+       <div class="response-btn">
+         <input type="radio" id="yes" name="yes"/>
+         <label for="yes">Yes</label><br>
+         <input type="radio" id="no" name="yes"/>
+         <label for="no">No</label>
+       </div>
+
+       <h1>Fields you are interested in:</h1>
+       <div class="interest-btn">
+        <input type="radio" id="maths" name="maths"/>
+        <label for="maths">Mathematics</label><br>
+        <input type="radio" id="agric" name="agric"/>
+        <label for="agric">Agriculture</label><br>
+        <input type="radio" id="IT" name="IT"/>
+        <label for="IT">IT Programming</label><br>
+        <input type="radio" id="law" name="law"/>
+        <label for="law">Law</label><br>
+        <input type="radio" id="politics" name="politics"/>
+        <label for="politics">Politics</label><br>
+        <input type="radio" id="edu" name="edu"/>
+        <label for="edu">Education</label><br>
+        <input type="radio" id="market" name="market"/>
+        <label for="market">Marketing</label><br>
+        <input type="radio" id="biz" name="biz"/>
+        <label for="biz">Business</label><br>
+        <input type="radio" id="journ" name="journ"/>
+        <label for="journ">Journalism</label><br>
+        <input type="radio" id="psy" name="psy"/>
+        <label for="psy">Psychology</label><br>
+      </div>
+      <div class="btn">
+        <button>SUBMIT</button>
+      </div>
+      
+    </form>
+
+
+</body>
+</html>

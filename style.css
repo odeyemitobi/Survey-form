@@ -1,0 +1,143 @@
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+
+* {
+  font-family: "Sofia Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: white;
+}
+
+.header h1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.join {
+    margin-left: 15%;
+}
+
+.join h1 {
+    font-size: 50px;
+    display: flex;
+}
+
+.join input {
+    margin: 5px;
+    padding: 40px;
+    width: 90%;
+    font-size: 40px;
+}
+
+.join select {
+    padding: 30px;
+    font-size: 25px;
+}
+
+.join .bigger-input input {
+  margin: 5px;
+  padding: 150px;
+  width: 90%;
+  font-size: 50px;
+}
+
+.response-btn input[type="radio"] {
+  display: none;
+}
+
+.response-btn label {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.response-btn label::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+}
+
+.response-btn input[type="radio"]:checked + label::after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background: rgb(5, 124, 163);
+  border-radius: 100%;
+}
+
+
+
+.interest-btn input[type="radio"] {
+  display: none;
+}
+
+.interest-btn label {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.interest-btn label::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+}
+
+.interest-btn input[type="radio"]:checked + label::after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background: rgb(5, 124, 163);
+  border-radius: 100%;
+}
+
+.btn button {
+  position: absolute;
+  margin: 20px;
+  color: white;
+  background: #0066A2;
+  border-style: outset;
+  border-color: #0066A2;
+  height: 50px;
+  width: 100px;
+  font: bold 15px arial,sans-serif;
+  text-shadow: none;
+}
